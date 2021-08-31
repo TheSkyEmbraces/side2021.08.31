@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D로 구현한 스와이퍼 슬라이드 HTML SCSS JS</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7.0.1/swiper-bundle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="front">
+                        <h1 class="heading heading-free">Free</h1>
+                        <h3 class="price">$9999</h3>
+                        <ul class="list free">
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>P.D.G</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>GITHUB</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>TheSkyEmbraces</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>Web developer (Front)</span>
+                            </li>
+                        </ul>
+                        <button class="card-btn btn-free">Choose Plan</button>
+                    </div>
+                    <div class="card-back btn-free">
+                        <a href="">Order Now</a>
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="front">
+                        <h1 class="heading heading-basic">Basic</h1>
+                        <h3 class="price">$9999</h3>
+                        <ul class="list basic">
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>P.D.G</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>GITHUB</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>TheSkyEmbraces</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>Web developer (Front)</span>
+                            </li>
+                        </ul>
+                        <button class="card-btn btn-basic">Choose Plan</button>
+                    </div>
+                    <div class="card-back btn-basic">
+                        <a href="">Order Now</a>
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="front">
+                        <h1 class="heading heading-standard">Standard</h1>
+                        <h3 class="price">$9999</h3>
+                        <ul class="list standard">
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>P.D.G</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>GITHUB</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>TheSkyEmbraces</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>Web developer (Front)</span>
+                            </li>
+                        </ul>
+                        <button class="card-btn btn-standard">Choose Plan</button>
+                    </div>
+                    <div class="card-back btn-standard">
+                        <a href="">Order Now</a>
+                    </div>
+                </div>
+
+
+                <div class="card swiper-slide">
+                    <div class="front">
+                        <h1 class="heading heading-premium">Premium</h1>
+                        <h3 class="price">$9999</h3>
+                        <ul class="list premium">
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>P.D.G</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>GITHUB</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>TheSkyEmbraces</span>
+                            </li>
+
+                            <li>
+                                <i class="fa fa-check"></i>
+                                <span>Web developer (Front)</span>
+                            </li>
+                        </ul>
+                        <button class="card-btn btn-premium">Choose Plan</button>
+                    </div>
+                    <div class="card-back btn-premium">
+                        <a href="">Order Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/swiper@7.0.1/swiper-bundle.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            conteredSlides: true,
+            slidesPerVuew: 'auto',
+            coverflowEffect: {
+                rotate: 700,
+                stretch: 0,
+                depth: 500,
+                modifier: 1,
+                slideShadows: true,
+            }
+        });
+    </script>
+</body>
+
+</html>
